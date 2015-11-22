@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>EE6 + Angular</title>
+    <!-- inject:css -->
+    <!-- endinject -->
+
+</head>
+<body>
+    <header ng-controller="HeaderController">
+        <h1>Hello {{model.message}}</h1>
+        <h5 ng-bind="model.count"></h5>
+    </header>
+
+<!-- inject:js -->
+<!-- endinject -->
+</body>
+</html>
